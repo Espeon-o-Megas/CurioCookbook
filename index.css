@@ -1,0 +1,56 @@
+/*Layout*/
+.main {
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    margin:1% 0%;
+}
+.about, .jump, .testim {
+    margin:1% 0%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.image {
+    height:260px;
+    width:260px;
+    background-color: #edf2f4;
+    box-shadow: 0px 3px 2px #d90429;
+    margin: 10px auto;
+    color:#282d42;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 150%;
+}
+.aboutxt {
+    min-width: 300px;
+    max-width: 400px;
+    margin: 10px auto;
+    padding-left:10px;
+}
+.title {
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow:0px 3px 2px #d90429;
+    padding:2px 0px;
+}
+.tip {
+    font-weight:500;
+    font-size: 80%;
+    padding:5px;
+    margin:3px 0px;
+    color:#ef233c;
+    background-color: #8d99ae;
+    border-radius:5px;
+    box-shadow:0px 1px 5px #d90429;
+}
+
+.jump {
+    background-color:#edf2f4;
+    box-shadow: 0px 3px 2px #d90429;
+    color:#282d42;
+}
